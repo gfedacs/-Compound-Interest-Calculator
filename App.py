@@ -5,10 +5,9 @@ class APP(ctk.CTk):
 
     def __init__(self):
         super().__init__() 
-        
-        
         self.layout()
         self.aplicacao()
+        self.mainloop()
         
 
     
@@ -1210,4 +1209,4 @@ class APP(ctk.CTk):
 if __name__ == '__main__':
     app = APP()
 
-    app.mainloop()
+    
