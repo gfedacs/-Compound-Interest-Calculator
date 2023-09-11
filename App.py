@@ -765,6 +765,7 @@ class APP(ctk.CTk):
     def layout(self):
         self.title('Calculadora de Juros Compostos')
         self.geometry('1000x500')
+        self.resizable(width=False,height=False)
         
         
 
